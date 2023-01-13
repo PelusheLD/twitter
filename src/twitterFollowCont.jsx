@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export function TwFollowCont({ name, username, inicialState }) {
-  const [isFollow, setFollow] = useState(inicialState);
+export function TwFollowCont({ name, username, isfollowing }) {
+  const [isFollow, setFollow] = useState(isfollowing);
   const Click = () => {
     setFollow(!isFollow);
   };

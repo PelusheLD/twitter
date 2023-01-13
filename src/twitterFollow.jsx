@@ -8,7 +8,7 @@ export function TwFollow() {
       <h1>A quien Seguir</h1>
       <section className="twitterFollow">
         <TwFollowCont
-          inicialState={true}
+          isfollowing={true}
           name="Gabriel A. Cichero"
           username="6Cichero6"
         />
