@@ -22,7 +22,8 @@ export function TwFollowCont({ name, username, isfollowing }) {
       </header>
       <aside className="followCard-aside">
         <button className={estilo} onClick={Click}>
-          {text}
+          <span className="seguir">{text}</span>
+          <span className="dejarDeSeguir">Dejar de Seguir</span>
         </button>
       </aside>
     </article>
