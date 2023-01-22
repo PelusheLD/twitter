@@ -1,11 +1,14 @@
 .Container {
   background: #16181c;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   margin: 0;
+  font-size: 14px;
+  width: 400px;
 }
 .Container h1 {
   padding: 15px;
+  font-size: 20px;
 }
 
 .followCard {
@@ -13,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  height: 80px;
+  height: 65px;
 }
 .followCard:hover {
   background: #27282b;
@@ -22,12 +25,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 17px;
+  font-size: 15px;
   padding-left: 20px;
 }
 .followCard-header div img {
-  max-width: 22px;
-  max-height: 22px;
+  max-width: 17px;
+  max-height: 17px;
 }
 .followCard-header div a {
   text-decoration: none;
@@ -53,11 +56,11 @@
 }
 .followCard-aside .button-style {
   border-radius: 40px;
-  padding: 13px 35px;
-  font-size: 16px;
+  padding: 9px 18px;
+  font-size: 13px;
   background: #fcfcfc;
-  margin: 20px;
-  height: ;
+  margin: 0px 20px 0px -30px;
+  font-weight: 600;
   border: 1px solid rgb(172, 167, 167);
 }
 .seguir {
@@ -70,12 +73,13 @@
 }
 .followCard-aside .button-style-follow {
   border-radius: 40px;
-  padding: 13px;
-  font-size: 16px;
+  padding: 9px 18px;
+  font-size: 14px;
   background: #16181c;
-  margin: 20px;
+  margin: 0px 20px 0px -10px;
   color: #fff;
-  width: 150px;
+  width: 140px;
+  font-weight: 600;
   border: 1px solid rgb(172, 167, 167);
 }
 
@@ -86,22 +90,6 @@
   transition: 0.3s;
 }
 
-.follo3wCard-aside .button-style {
-  border-radius: 40px;
-  padding: 13px 35px;
-  font-size: 16px;
-  background: #16181c;
-  margin: 20px;
-  color: #fff;
-  border: 1px solid rgb(172, 167, 167);
-}
-
-.follo3wCard-aside .button-style:hover {
-  background-color: rgba(156, 59, 59, 0.384);
-  color: red;
-  border: 1px solid red;
-  transition: 0.3s;
-}
 .dejarDeSeguir {
   display: none;
 }
@@ -109,7 +97,7 @@
   color: red;
   transition: 0.3s;
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 .followCard-aside .button-style-follow:hover .seguir {
   color: red;
